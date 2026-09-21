@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE TINY MACHINE</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="app">
+      
+      <div id="app">
+  <header>
+    <div>
+      <div class="eyebrow">PROJECT: ???</div>
+      <h1>THE TINY MACHINE</h1>
+    </div>
+    <div id="clock">DAY 1 — 08:00</div>
+  </header>
+
+  <main>
+    <section id="machinePanel" class="panel">
+      <div class="panelTitle">
+        <span>MACHINE STATUS</span>
+        <span id="statusLight">● OFFLINE</span>
+      </div>
+
+      <div id="machine">
+        <div id="screen">
+          <div id="screenText">HELLO</div>
+          <div id="screenSub">insert curiosity</div>
+        </div>
+
+        <div id="dial">
+          <div id="dialPointer"></div>
+        </div>
+
+        <div id="slots">
+          <button class="slot" data-slot="0">?</button>
+          <button class="slot" data-slot="1">?</button>
+          <button class="slot" data-slot="2">?</button>
+        </div>
+
+        <button id="power">POWER</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panelTitle">
+        <span>WORKBENCH</span>
+        <span id="coins">0 ✦</span>
+      </div>
+
+      <div id="workbench">
+        <div class="object" draggable="true" data-item="gear">⚙</div>
+        <div class="object" draggable="true" data-item="star">✦</div>
+        <div class="object" draggable="true" data-item="key">⚿</div>
+        <div class="object" draggable="true" data-item="orb">●</div>
+        <div class="object" draggable="true" data-item="paper">▱</div>
+      </div>
+
+      <div id="instructions">
+        Drag objects into the machine slots.
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panelTitle">
+        <span>CONTROLS</span>
+      </div>
+
+      <div class="controls">
+        <button id="advance">ADVANCE TIME</button>
+        <button id="inspect">INSPECT MACHINE</button>
+        <button id="experiment">EXPERIMENT</button>
+        <button id="journalBtn">JOURNAL</button>
+        <button id="reset">RESET MACHINE</button>
+      </div>
+    </section>
+
+    <section class="panel" id="logPanel">
+      <div class="panelTitle">
+        <span>LOG</span>
+        <button id="clearLog">CLEAR</button>
+      </div>
+      <div id="log"></div>
+    </section>
+
+    <section class="panel hidden" id="journal">
+      <div class="panelTitle">
+        <span>JOURNAL</span>
+        <button id="closeJournal">CLOSE</button>
+      </div>
+
+      <div id="journalText">
+        Nothing has been written yet.
+      </div>
+
+      <div id="collection">
+        <div class="collectionTitle">DISCOVERIES</div>
+        <div id="discoveries">None.</div>
+      </div>
+    </section>
+  </main>
+
+  <div id="popup">
+    <div id="popupBox">
+      <div id="popupTitle">???</div>
+      <div id="popupText"></div>
+      <button id="popupClose">OK</button>
+    </div>
+  </div>
+</div
+      <script src="script.js"></script>
+
+</body>
+</html>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
